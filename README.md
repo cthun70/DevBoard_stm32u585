@@ -47,3 +47,7 @@ Untick do not generate function call for "MX_USB_OTG_FS_PCD_Init" to add the fun
 <img width="715" alt="image" src="https://github.com/user-attachments/assets/097ea1b7-5d57-406a-a95c-851bc0986505" />
 
 Add code into "app_usbx_device.c", line of code to be added in Line  204
+
+<img width="1098" alt="image" src="https://github.com/user-attachments/assets/5758849a-fea9-498b-a966-44a7eb569253" />
+
+USB should be detected and pass USB enumeration and a Serial Communication device will appear under "USB\VID_0483&PID_5710"  
