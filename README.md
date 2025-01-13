@@ -6,6 +6,11 @@ Memo for self record to implement basic IO function to start project with new de
 
 https://github.com/WeActStudio/WeActStudio.STM32U585Cx_CoreBoard
 
+Toolset : STM32CubeIde 1.15.1
+
+Start a new blank project using stm32cubeide with device stm32u585cui6
+
+Setup system Clock
 
 New USB-CDC (USB-X without X-Thread)
 
