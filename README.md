@@ -43,3 +43,7 @@ Add code into main.c, line of code to be added is Line 99, 102 & 109
 <img width="908" alt="image" src="https://github.com/user-attachments/assets/a9367d03-3111-4657-a2ee-951f764dae59" />
 
 Untick do not generate function call for "MX_USB_OTG_FS_PCD_Init" to add the function call "MX_USB_OTG_FS_PCD_Init();" into main function.
+
+<img width="715" alt="image" src="https://github.com/user-attachments/assets/097ea1b7-5d57-406a-a95c-851bc0986505" />
+
+Add code into "app_usbx_device.c", line of code to be added in Line  204
