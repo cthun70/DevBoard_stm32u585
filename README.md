@@ -27,3 +27,6 @@ Setup USB Connectivity as Device only and enabe USb NVIC
 Setup USB-X middleware (Not using ThreadX but a standalone solution in this use case). Select the Core system, Device core stack and controller stack and finally the Device class CDC-ACM
 
 
+<img width="454" alt="image" src="https://github.com/user-attachments/assets/11aa4d41-1f6f-46e4-bad1-8584d21030f3" />
+
+Get rid of the warning in the platform tag.
