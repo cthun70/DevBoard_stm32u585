@@ -7,3 +7,5 @@ Memo for self record to implement basic IO function to start project with new de
 https://github.com/WeActStudio/WeActStudio.STM32U585Cx_CoreBoard
 
 
+New USB-CDC (USB-X without X-Thread)
+
