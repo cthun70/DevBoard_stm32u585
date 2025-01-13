@@ -18,3 +18,7 @@ RCC is configure at 25Mhz input on HSE with expected sys_clock at 150Mhz and USB
 
 New USB-CDC (USB-X without X-Thread)
 
+<img width="662" alt="image" src="https://github.com/user-attachments/assets/577d2d3b-b58e-49f0-b176-d56741fb5af9" />
+
+Setup USB Connectivity as Device only and enabe USb NVIC
+
