@@ -12,5 +12,9 @@ Start a new blank project using stm32cubeide with device stm32u585cui6
 
 Setup system Clock
 
+<img width="889" alt="image" src="https://github.com/user-attachments/assets/e9ca4314-163a-428d-ac46-ebb5aa04945d" />
+
+RCC is configure at 25Mhz input on HSE with expected sys_clock at 150Mhz and USB clock to be 48Mhz. Confirmation is done with MCO output is at 25Mhz to follow HSE.
+
 New USB-CDC (USB-X without X-Thread)
 
