@@ -34,3 +34,8 @@ Get rid of the warning in the platform tag.
 <img width="662" alt="image" src="https://github.com/user-attachments/assets/b71ff30a-d5f5-4d26-b9fa-51e051a3e5fa" />
 
 Set the both "UXDevice memory pool size" & "USBX Device System Stack Size" to 10k
+
+
+<img width="863" alt="image" src="https://github.com/user-attachments/assets/9307d776-82e8-4b3b-b7fc-5442a721f5a5" />
+
+Add code into main.c, line of code to be added is Line 99, 102 & 109
