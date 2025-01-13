@@ -22,3 +22,8 @@ New USB-CDC (USB-X without X-Thread)
 
 Setup USB Connectivity as Device only and enabe USb NVIC
 
+<img width="689" alt="image" src="https://github.com/user-attachments/assets/e5c6714e-1ba4-4133-beb7-e3f4f8802ebd" />
+
+Setup USB-X middleware (Not using ThreadX but a standalone solution in this use case). Select the Core system, Device core stack and controller stack and finally the Device class CDC-ACM
+
+
