@@ -30,3 +30,7 @@ Setup USB-X middleware (Not using ThreadX but a standalone solution in this use 
 <img width="454" alt="image" src="https://github.com/user-attachments/assets/11aa4d41-1f6f-46e4-bad1-8584d21030f3" />
 
 Get rid of the warning in the platform tag.
+
+<img width="662" alt="image" src="https://github.com/user-attachments/assets/b71ff30a-d5f5-4d26-b9fa-51e051a3e5fa" />
+
+Set the both "UXDevice memory pool size" & "USBX Device System Stack Size" to 10k
