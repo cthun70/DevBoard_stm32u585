@@ -110,4 +110,4 @@ USB should be detected and pass USB enumeration and a Serial Communication devic
 USB-X Status 
 
 1. USB enumeration is Working and USB serial is detected on PC side.
-2. Still not working, Same code from the h503 is not working for the u585. Issue is receive callback happen when a key is input from the terminal but usb task is lock up when trying to send a non block USB write request with no callback from the write run..... Strange!
+2. Still not working, Same code from the h503 is not working for the u585. Receive callback happen when a key is input from the terminal but the issue is usb task is locked up after trying to send a non block USB write request with no callback from the write run..... Strange!
