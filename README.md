@@ -12,9 +12,39 @@ USB Connectivity Setup.
 
 <img width="541" alt="image" src="https://github.com/user-attachments/assets/83e58bc6-dcb5-4c68-a56b-2e559053d7b8" />
 
-Enable NVIC
+DEfault Parameters is sufficient.
+
 <img width="398" alt="image" src="https://github.com/user-attachments/assets/4d1cd34a-2e1f-451c-8300-7cb5fcba87a6" />
 
+Enable NVIC
+
+USB-X Middleware
+
+<img width="395" alt="image" src="https://github.com/user-attachments/assets/0c0d0afa-9f5f-4fb0-8b6a-87436e226e3c" />
+Enable Core, Controller and CDC-ACM
+
+<img width="494" alt="image" src="https://github.com/user-attachments/assets/7d3690ba-daee-4c7a-a8bc-2c538b18e4b5" />
+Change default stack size and set ACM_TRANSMISSION_DISABLE to disable for non blocking transfer
+
+Modify main.c as follows:-
+
+<img width="461" alt="image" src="https://github.com/user-attachments/assets/0085be51-d085-4f64-8993-255264f1541a" />
+
+Modify ux_device_cdc_acm.c as follows:-
+
+Part 1
+<img width="835" alt="image" src="https://github.com/user-attachments/assets/0b4932a9-8d64-4b08-8b90-36a69ef678db" />
+
+Part 2
+<img width="815" alt="image" src="https://github.com/user-attachments/assets/2d7fc981-914d-44fa-9629-0aec2651edde" />
+
+Part 3
+<img width="743" alt="image" src="https://github.com/user-attachments/assets/36912768-db73-4814-9f3d-4e2ea6212593" />
+
+USB-X Status 
+
+1. UWB enumeration is Working and USB serial is detected on PC dide.
+2. Loopback of keyboard entry key stroke is able to echo back on the terminal display. Receiving and Sending of CDC packet is working.
 
 
 # DevBoard_stm32u585
