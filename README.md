@@ -1,6 +1,6 @@
 # DevBoard_stm32u585
 
-Memo for self record to implement basic IO function to start project with new development board from WeAct Studio
+Memo for self record to implement basic IO function to start project with new development board from WeAct Studio. To Build the code, clone the repo, import using ST32CubeIDE and remember to generate start device configuration tool code generation before building and download the code.  
 
 <img width="647" alt="image" src="https://github.com/user-attachments/assets/8d774fba-d62d-4798-b57e-1fec2b7dde82" />
 
