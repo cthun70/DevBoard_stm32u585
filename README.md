@@ -48,7 +48,7 @@ Part 3
 
 USB-X Status 
 
-1. UWB enumeration is Working and USB serial is detected on PC dide.
+1. USB enumeration is Working and USB serial is detected on PC side.
 2. Loopback of keyboard entry key stroke is able to echo back on the terminal display. Receiving and Sending of CDC packet is working.
 
 #
@@ -106,3 +106,8 @@ Add code into "app_usbx_device.c", line of code to be added in Line  204
 <img width="1098" alt="image" src="https://github.com/user-attachments/assets/5758849a-fea9-498b-a966-44a7eb569253" />
 
 USB should be detected and pass USB enumeration and a Serial Communication device will appear under "USB\VID_0483&PID_5710"  
+
+USB-X Status 
+
+1. USB enumeration is Working and USB serial is detected on PC side.
+2. Still not working, Same code from the h503 is not working for the u585. Issue is receive callback happen when a key is input from the terminal but usb task is lock up when trying to send a non block USB write request with no callback from the write run..... Strange!
