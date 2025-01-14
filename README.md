@@ -1,3 +1,22 @@
+# DevBoard_stm32h503cbt6
+
+Memo for self record to implement basic IO function in preparation for new development with this micro controller. To Build the code, clone the repo, import using ST32CubeIDE and remember to generate start device configuration tool code generation before building and download the code.  
+
+<img width="671" alt="image" src="https://github.com/user-attachments/assets/b9ec99e0-77ba-4d7c-83f1-bad48d1716f0" />
+
+System Clock Setup
+
+<img width="879" alt="image" src="https://github.com/user-attachments/assets/4c3006f4-1754-419e-9d8e-6cb7aeadee0e" />
+
+USB Connectivity Setup.
+
+<img width="541" alt="image" src="https://github.com/user-attachments/assets/83e58bc6-dcb5-4c68-a56b-2e559053d7b8" />
+
+Enable NVIC
+<img width="398" alt="image" src="https://github.com/user-attachments/assets/4d1cd34a-2e1f-451c-8300-7cb5fcba87a6" />
+
+
+
 # DevBoard_stm32u585
 
 Memo for self record to implement basic IO function to start project with new development board from WeAct Studio. To Build the code, clone the repo, import using ST32CubeIDE and remember to generate start device configuration tool code generation before building and download the code.  
