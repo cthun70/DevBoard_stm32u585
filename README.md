@@ -111,3 +111,13 @@ USB-X Status
 
 1. USB enumeration is Working and USB serial is detected on PC side.
 2. Still not working, Same code from the h503 is not working for the u585. Receive callback happen when a key is input from the terminal but the issue is usb task is locked up after trying to send a non block USB write request with no callback from the write run..... Strange!
+
+Update on 13/Feb/2025, Receive Callback seems to be working. "UX_DEVICE_CLASS_CDC_ACM_TRANSMISSION_DISABLE" need to be in "Disabled" to allow callback function to execute "_ux_device_class_cdc_acm_tasks_run" from "ux_device_stack_tasks_run"
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/701d1c57-0238-4c44-a454-1c8426dcaec5" />
+
+After setting up the callback function within "USBD_CDC_ACM_Activate" Receive Callback with be called evertime data is send over the CDC Comm device.
+
+<img width="1091" alt="image" src="https://github.com/user-attachments/assets/8854d706-7ab9-4458-9c8f-af26989fbcbf" />
+
+Moving on the TX implementation....
